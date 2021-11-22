@@ -2,9 +2,9 @@ package com.hz;
 
 import java.util.HashMap;
 
-public class Bus extends HashMap<String, Student> {
+public class Bus extends HashMap<String, Passenger> {
 
-    public void getIn(Student student){
-        this.put(student.name, student);
+    public void getIn(Passenger passenger){
+        this.put(passenger.getName(), passenger);
     }
 }
